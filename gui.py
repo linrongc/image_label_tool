@@ -8,8 +8,6 @@ from Tkinter import *
 import tkFileDialog, tkMessageBox
 import numpy as np
 from handler import *
-import cv2
-import itertools
 
 
 class GUI:
