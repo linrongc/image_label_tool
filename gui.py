@@ -213,7 +213,7 @@ class GUI:
         self.change_display_status(status, ind)
 
     def keyboard_event(self, event):
-        print "hit a direction"
+        # print "hit a direction"
         try:
             current = self.image_tuples[self.global_pos]
         except IndexError:
